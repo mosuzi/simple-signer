@@ -1,4 +1,10 @@
-export const baseURL = "";
-export const loginUrl = "";
-export const signUrl = "";
-export const larkBotApi = "";
+const baseURL = "";
+const loginUrl = "";
+const signUrl = "";
+const larkBotApi = "";
+module.exports = {
+  baseURL,
+  loginUrl,
+  signUrl,
+  larkBotApi
+}
